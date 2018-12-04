@@ -127,7 +127,7 @@ maxSleepMinute = mostSleepyMinutes.index(maxSleepTime)
 print("Max sleep minute: {}".format(maxSleepMinute))
 
 answer = int(sleepyGuardID[1:]) * maxSleepMinute
-print("Answer: {}".format(answer))
+print("Part 1 Answer: {}".format(answer))
 
 superSleepyGuardID = ""
 mostSleepyMinuteFinal = -1
