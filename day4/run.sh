@@ -9,9 +9,9 @@ if [ -z $1 ]
 then
     # If no arguments are given then normal input is ran    
     # echo "String is null."
-    python3 day.py input.txt
+    python3 day4.py input.txt
 else
     # If any argument is given then test input (input2.txt) is ran 
     # echo "String is NOT null."
-    python3 day.py input2.txt
+    python3 day4.py input2.txt
 fi
